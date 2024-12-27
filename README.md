@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Space Tourism Multi-Page Website
 
-## Getting Started
+This is a multi-page website built with Next.js, React, and Tailwind CSS, designed to showcase an immersive space tourism experience. The project utilizes modern web development tools and practices, ensuring high performance, scalability, and maintainability.
 
-First, run the development server:
+## Installation
+
+git clone https://github.com/your-username/space-tourism-multi-page-website.git  
+cd space-tourism-multi-page-website
+
+### Install dependencies:
+
+```bash
+npm install
+
+```
+
+### Usage
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Multi-Page Navigation: Seamless routing between pages using Next.js.
+- Responsive Design: Fully optimized for desktops, tablets, and mobile devices.
+- Tailwind CSS: Custom styling with utility-first classes.
+- Prettier & ESLint: Enforces consistent code quality and styling.
+- Developer-Friendly: Modern tools like PostCSS and Prettier make collaboration efficient.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies
 
-## Learn More
+- Next.js 15
+- React 19
+- Tailwind CSS 3.4
+- Prettier with Tailwind Plugin
+- ESLint
 
-To learn more about Next.js, take a look at the following resources:
+## Styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is styled using Tailwind CSS. Classes are added directly to JSX elements for fast and maintainable styling.

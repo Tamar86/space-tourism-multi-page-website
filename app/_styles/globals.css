@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --White: #fff;
+  --Light-blue: #d0d6f9;
+  --Dark-blue: #0b0d17;
+  --Gray: #6b7280;
+
+  /* size */
+  --XXX-small: 14px;
+  --XX-small: 15px;
+  --X-small: 16px;
+  --Small: 18px;
+  --Medium: 20px;
+  --X-medium: 24px;
+  --XX-medium: 28px;
+  --XXX-medium: 32px;
+  --XXXX-medium: 40px;
+  --Large: 56px;
+  --X-large: 80px;
+  --XX-large: 96px;
+  --XXX-Large: 140px;
+}
+
+@layer base {
+  h1 {
+    @apply font-bellefair;
+  }
+  h2 {
+    @apply font-bellefair;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: inherit;
+}
+
+h1 {
+  font-size: var(--Large);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--XXX-medium);
+  color: var(--Light-blue);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: barlow;
+  color: var(--Light-blue);
+  font-size: var(--Small);
+  line-height: 32px;
+  text-align: start;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: var(--XXXX-medium);
+  }
+  h2 {
+    font-size: var(--X-medium);
+  }
+  p {
+    font-size: var(--X-small);
+    text-align: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: var(--X-medium);
+  }
+  h2 {
+    font-size: var(--Small);
+  }
+  p {
+    font-size: var(--XX-small);
+    text-align: center;
+  }
+}
+
+#__next {
+  height: 100%;
+}
