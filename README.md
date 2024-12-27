@@ -40,3 +40,25 @@ npm run dev
 ## Styling
 
 This project is styled using Tailwind CSS. Classes are added directly to JSX elements for fast and maintainable styling.
+
+## Screenshots
+
+![Screenshot](./screenshots/desktop-home.png)
+
+![Screenshot](./screenshots/desktop-home-active.png)
+
+![Screenshot](./screenshots/desktop-destination.png)
+
+![Screenshot](./screenshots/desktop-crew.png)
+
+![Screenshot](./screenshots/desktop-technology.png)
+
+![Screenshot](./screenshots/tablet-technology.png)
+
+![Screenshot](./screenshots/mobile-home.png)
+
+![Screenshot](./screenshots/mobile-home2.png)
+
+![Screenshot](./screenshots/mobile-technology.png)
+
+![Screenshot](./screenshots/mobile-destination.png)
