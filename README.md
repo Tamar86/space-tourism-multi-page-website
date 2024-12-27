@@ -62,3 +62,9 @@ This project is styled using Tailwind CSS. Classes are added directly to JSX ele
 ![Screenshot](./screenshots/mobile-technology.png)
 
 ![Screenshot](./screenshots/mobile-destination.png)
+
+## Check it out
+
+You can view the live project here: [Live Project](https://space-tourism-multi-page-website-teal.vercel.app/)
+
+You can also find the source code here: [GitHub Repository](https://github.com/Tamar86/space-tourism-multi-page-website)
